@@ -1,0 +1,132 @@
+.my-header {
+    padding-top: 20px;
+}
+
+.paragraphs {
+    height: 80px;
+}
+
+.paragraph{
+    padding-bottom: -100px;
+    display: none;
+}
+
+.my-footer {
+    padding-bottom: 50px;
+}
+
+footer p {
+    padding-top: 15px;
+    font-size: 0.8em;
+}
+
+hr.footer-line {
+    margin-top: -15px!important;
+}
+
+a {
+    color: #4682B4;
+}
+
+a:hover {
+    color: rgb(33, 117, 185);
+}
+
+.my-button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(70, 131, 180);
+    border: none;
+    margin-top: 20px;
+}
+
+.my-button:hover{
+    background-color: rgb(51, 94, 129);
+}
+
+#my-chart1 {
+   padding-top: 4em;
+}
+
+#my-chart2 {
+    padding: 8em 0 8em 0;
+ }
+
+h5 {
+    padding-left:1.2em;
+}
+
+h1 {
+    padding-top: 25px;
+}
+
+#my-link {
+    padding-left:0em;
+    font-size: 0.8em;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 50px;					
+    height: 48px;					
+    padding: 2px;		
+    margin-left: 40px;
+    margin-top: -25px;
+    font: 12px sans-serif;		
+    background: #4682B4;
+    color: white;	
+    border: 1px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.tooltip-line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.focus {
+    font: 12px sans-serif;	
+}
+
+.dotInflux, .influx {
+    fill: #f5e356;
+    background: #f5e356;
+  }
+
+  .dotOutflux, .outflux {
+    fill: #cb6318;
+    background: #cb6318;
+  }
+
+.key-dot {
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    margin-right: .5em;
+    width: 16px;
+}
+
+.legend {
+    margin-top:85px;
+}
+
+.legend-spacing {
+    margin: 0 !important;
+}
+
+#area1 {
+    background-image: url("../resource/evolution.jpg");
+    background-repeat: no-repeat, repeat;
+}
+
+.name-div {
+    margin-top: 30px;
+}
+
+#name-p {
+    text-align: right;
+}
